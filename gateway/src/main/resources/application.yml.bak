@@ -1,0 +1,10 @@
+server:
+  port: 80
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: neo_route
+          uri: http://www.ityouknow.com
+          predicates:
+            - RemoteAddr=192.168.31.1/24
