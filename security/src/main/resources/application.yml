@@ -1,0 +1,12 @@
+#服务配置
+server:
+  port: 8083
+  tomcat:
+    uri-encoding: utf-8
+#数据源配置
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://127.0.0.1:1433;DatabaseName=zjq-local
+    username: sa
+    password: sa
