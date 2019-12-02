@@ -1,0 +1,38 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: 123456
+    url: jdbc:sqlserver://192.168.31.128:1433;DatabaseName=hvisions-subway
+  jpa:
+    #是否输入Jpa生成的sql语句,生产环境可以关闭
+    show-sql: false
+    #数据库生成策略，如果打开会根据entity对象生成数据库。尽量不要使用
+    hibernate:
+      ddl-auto: none
+  #redis 地址和端口号
+#  redis:
+#    host: 192.168.3.13
+#    port: 6379
+#    password: 123456
+  #支持消息队列
+#  rabbitmq:
+#    host: 192.168.3.13
+#    port: 5672
+#    username: admin
+#    password: admin
+#    virtual-host: /
+#eureka:
+#  instance:
+#    prefer-ip-address: true
+#    #实例名
+#    instance-id: hvisions-subway-test:${server.port}
+#  client:
+#    service-url:
+#      #euraka地址
+#      defaultZone: http://192.168.3.13:9001/eureka/
+#判断是否开启swagger功能 生产环境建议关闭
+swagger:
+  enable: true
