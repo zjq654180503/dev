@@ -32,6 +32,10 @@ public class SysUser extends BaseEntity{
 	 */
 	private String fullName;
 	/**
+	 * 岗位
+	 */
+	private String post;
+	/**
 	 * 手机号
 	 */
 	private Integer phone;

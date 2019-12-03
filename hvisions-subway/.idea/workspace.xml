@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ab4d72b-6e7b-4cae-8698-d127e1769717" name="Default Changelist" comment="" />
+    <list default="true" id="0ab4d72b-6e7b-4cae-8698-d127e1769717" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-client/src/main/java/com/hvisions/subway/demoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-common/src/main/java/com/hvisions/subway/demoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/AlarmInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/AlarmPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/AlarmStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/CrashSolution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/EquipmentHistoryData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/MailTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/MaintainOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/MaintainTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SmsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SparePart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysDataDict.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysOrgUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysParamDef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysParamValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/subway-server/src/main/java/com/hvisions/subway/entity/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subway-server/target/classes/META-INF/subway-server.kotlin_module" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +49,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1UPITwfX6S6TBFjFcMy2I4W3J6n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,13 +64,15 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/subway-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hvisions.subway" />
       <recent name="com.hvisions.subway.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -92,6 +124,7 @@
       <updated>1575251815397</updated>
       <workItem from="1575251818104" duration="5583000" />
       <workItem from="1575257508310" duration="25536000" />
+      <workItem from="1575334666880" duration="28061000" />
     </task>
     <servers />
   </component>
@@ -111,38 +144,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1575266552747" />
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1575288965450">
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575288965450" />
-    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1575288965450">
+    <state width="1237" height="133" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.0.center" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575288965450" />
-    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1575288965449">
+    <state width="1237" height="133" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.0.left" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575288965449" />
-    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1575288965450">
+    <state width="1237" height="133" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.0.right" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575288965450" />
-    <state width="1237" height="184" key="GridCell.Tab.1.bottom" timestamp="1575288965451">
+    <state width="1237" height="133" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.1.bottom" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575288965451" />
-    <state width="1237" height="184" key="GridCell.Tab.1.center" timestamp="1575288965450">
+    <state width="1237" height="133" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.1.center" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1575288965450" />
-    <state width="1237" height="184" key="GridCell.Tab.1.left" timestamp="1575288965450">
+    <state width="1237" height="133" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.1.left" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1575288965450" />
-    <state width="1237" height="184" key="GridCell.Tab.1.right" timestamp="1575288965451">
+    <state width="1237" height="133" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
+    <state width="1237" height="133" key="GridCell.Tab.1.right" timestamp="1575349874280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1575288965451" />
+    <state width="1237" height="133" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1575349874280" />
     <state x="272" y="41" width="736" height="594" key="RefactorJ.ExtractClass" timestamp="1575270365759">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
