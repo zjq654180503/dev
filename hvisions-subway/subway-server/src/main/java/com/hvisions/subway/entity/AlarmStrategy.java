@@ -1,6 +1,7 @@
 package com.hvisions.subway.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,6 +13,7 @@ import javax.persistence.Id;
  */
 @Entity
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class AlarmStrategy extends BaseEntity {
     /**
      * Id

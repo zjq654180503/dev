@@ -1,6 +1,7 @@
 package com.hvisions.subway.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
  */
 @Entity
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class SysRoleResource extends BaseEntity{
     /**
      * 角色资源关系id

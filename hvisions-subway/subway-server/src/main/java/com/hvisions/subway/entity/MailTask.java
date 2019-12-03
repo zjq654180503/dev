@@ -1,6 +1,7 @@
 package com.hvisions.subway.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -13,6 +14,7 @@ import java.util.Date;
  */
 @Entity
 @Data
+@EqualsAndHashCode(callSuper = true)
 public class MailTask extends BaseEntity {
     /**
      * Id
