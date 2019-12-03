@@ -1,0 +1,26 @@
+模型类型   	SysModeType(可定义站点、系统、子系统、工艺段、设备等类型)
+模型对象   	SysModeObject(modeId,modeName,modeType,parentMode)
+模型结构   	SysModeStructure
+参数定义   	SysParamDef
+参数值	 	SysParamValue
+数据字典   	SysDataDict
+系统日志   	SysLog
+组织架构	 	SysOrganization
+组织用户   	SysOrgUser
+系统用户   	SysUser
+系统角色	 	SysRole
+用户角色   	SysUserRole
+系统资源   	SysResource
+角色资源	 	SysRoleResource
+告警点	 	AlarmPoint
+告警信息   	AlarmInfo
+告警策略	 	AlarmStrategy
+维修工单	 	MaintainOrder
+维修任务	 	MaintainTask
+备件信息	 	SparePart
+设备历史数据 	EquipmentHistoryData
+邮件任务   	MailTask
+短信任务   	SmsTask
+应急方案		CrashSolution
+
+
